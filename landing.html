@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMO - Soluciones Industriales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 700;
+    }
+
+    .btn-contacto {
+      background-color: red;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .hero {
+      position: relative;
+      background: url("static/smo1.png") center center / cover no-repeat;
+      color: white;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+
+    
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: bold;
+      max-width: 600px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .stats {
+      background: #fff;
+      color: red;
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .stats div {
+      max-width: 200px;
+    }
+
+    .stats span {
+      font-size: 36px;
+      font-weight: bold;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="static/smo.png" alt="Logo SMO" />
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Soluciones</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><button class="btn-contacto">Contacto</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <!--<h1>+9 años ofreciendo soluciones industriales eficientes</h1>-->
+  </section>
+
+  <section class="stats">
+    <div>
+      <span>+54</span>
+      Suministro e instalación<br><strong>Proyectos Realizados</strong>
+    </div>
+    <div>
+      <span>+75</span>
+      Fabricación de estructuras<br><strong>Proyectos Metal Mecánica</strong>
+    </div>
+    <div>
+      <span>+1200</span>
+      Transporte de materiales<br><strong>Fletes Realizados</strong>
+    </div>
+  </section>
+</body>
+</html>
